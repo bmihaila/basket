@@ -1,7 +1,6 @@
 BasKet Note Pads
 ================
 Gleb Baryshev <gleb.baryshev@gmail.com>
-
 Kelvie Wong <kelvie@ieee.org>
 
 Purpose
@@ -29,7 +28,6 @@ If you are reading this, chances are, you are a developer (if I'm wrong email me
 ;), so most of the developers documentation will go here until we can finalize a
 user README after we're done porting.
 
-
 Contact
 -------
 If you have any questions, or would like to contribute (always welcome!) please
@@ -40,23 +38,9 @@ Developers are usually idle on #basket-devel @ freenode on IRC, and it's quite
 likely you'll catch one of us there Due to timezone differences, however, it's
 generally better to email the list.
 
-The BasKet web site (again, unmaintained right now) is at:
-http://basket.kde.org/
-
+The BasKet web site is at:
+https://launchpad.net/basket
 
 Building/Installation
 ----------------------
-To build and install BasKet, follow these steps (this assumes you have the relevant
-kde4 development libraries and CMake):
-
-----
-mkdir build
-cd build
-cmake -DCMAKE_INSTALL_PREFIX=`kf5-config --prefix` -DQT_PLUGIN_INSTALL_DIR=`qtpaths --plugin-dir` ..
-make
-# make install
-----
-
-Or you can try your luck with the installer script:
-
-  ./installer
+See `INSTALL.md` file for instructions.
